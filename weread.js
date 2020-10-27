@@ -7,8 +7,6 @@ if (url.indexOf('/pay/memberCardSummary') != -1) {
 	body = JSON.stringify(obj);
 } 
 
-body = JSON.stringify(obj);
-
 $done({
 	body
 });
