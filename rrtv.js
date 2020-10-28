@@ -67,7 +67,6 @@ if (url.indexOf('/ad/getAll') != -1) {
 	obj.data['m3u8']['currentQuality'] = 'OD';
 }
 
-
 body = JSON.stringify(obj);
 
 $done({
