@@ -14,7 +14,7 @@ if (url.indexOf('/ad/getAll') != -1) {
 		"function": "originalPainting",
 		"func": "originalPainting",
 		"endTime": 1667341767582,
-		"description": "½âËøÔ­»­",
+		"description": "è§£é”åŸç”»",
 		"icon": "jiesuoyuanhua"
 	}, {
 		"action": "play",
@@ -23,7 +23,7 @@ if (url.indexOf('/ad/getAll') != -1) {
 		"function": "noLimit",
 		"func": "noLimit",
 		"endTime": 1567341767582,
-		"description": "¿´¾çÎŞÏŞÖÆ",
+		"description": "çœ‹å‰§æ— é™åˆ¶",
 		"icon": "kanjuwuxianzhi"
 	}, {
 		"action": "play",
@@ -32,7 +32,7 @@ if (url.indexOf('/ad/getAll') != -1) {
 		"function": "0.4",
 		"func": "0.4",
 		"endTime": 1667341767582,
-		"description": "¿´¾ç¾­Ñé+40%",
+		"description": "çœ‹å‰§ç»éªŒ+40%",
 		"icon": "jingyanzhijiacheng"
 	}, {
 		"action": "send",
@@ -41,7 +41,7 @@ if (url.indexOf('/ad/getAll') != -1) {
 		"function": "superBarrageBlue",
 		"func": "superBarrageBlue",
 		"endTime": 1667341767582,
-		"description": "³¬¼¶µ¯Ä»",
+		"description": "è¶…çº§å¼¹å¹•",
 		"icon": "chaojidanmu"
 	}, {
 		"action": "play",
@@ -50,7 +50,7 @@ if (url.indexOf('/ad/getAll') != -1) {
 		"function": "noAd",
 		"func": "noAd",
 		"endTime": 1667341767582,
-		"description": "¿´¾çÎŞ¹ã¸æ",
+		"description": "çœ‹å‰§æ— å¹¿å‘Š",
 		"icon": "kanjuwuguanggao"
 	}];
 
@@ -61,10 +61,9 @@ if (url.indexOf('/ad/getAll') != -1) {
 }else if(url.indexOf('/watch/v4/priority_video_quality/get_priority_video_quality_config') != -1){
 	var obj = JSON.parse(body);
 
-	obj.data ="sortedItems":[{"qualityDescription":"¸ßÇå","qualityCode":"SD","canPlay":true,"canShowVip":false,"initialQuality":true},{"qualityDescription":"³¬Çå","qualityCode":"HD","canPlay":true,"canShowVip":false,"initialQuality":false},{"qualityDescription":"Ô­»­","qualityCode":"OD","canPlay":true,"canShowVip":false,"initialQuality":false},{"qualityDescription":"AIÔ­»­","qualityCode":"AI_OD","canPlay":true,"canShowVip":false,"initialQuality":false}];
+	obj.data ="sortedItems":[{"qualityDescription":"é«˜æ¸…","qualityCode":"SD","canPlay":true,"canShowVip":false,"initialQuality":true},{"qualityDescription":"è¶…æ¸…","qualityCode":"HD","canPlay":true,"canShowVip":false,"initialQuality":false},{"qualityDescription":"åŸç”»","qualityCode":"OD","canPlay":true,"canShowVip":false,"initialQuality":false},{"qualityDescription":"AIåŸç”»","qualityCode":"AI_OD","canPlay":true,"canShowVip":false,"initialQuality":false}];
 }else if(url.indexOf('/watch/v4/get_movie_play_info') != -1){
 	var obj = JSON.parse(body);
-
 	obj.data['m3u8']['currentQuality'] = 'OD';
 }
 
